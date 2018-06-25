@@ -1,0 +1,457 @@
+body{background-color:#fff;
+margin:0 auto;
+font-family:helvetica;
+}
+.linha{
+	width:100%;
+	height:40px;
+
+	background:#037B33;
+}
+.master{
+margin:0 auto;
+width:1280px;
+}
+
+.topo{
+	
+	color:#fff;
+	width:1280px;
+	height:150px;
+	margin-top:-40px;
+	font-size:17px;
+	
+}
+#logo {
+	width:175px;
+	margin-left:100px;
+	
+}
+.menu{
+	color:#fff;
+	width:600px;
+	height:px;
+	background:;
+	font-size:17px;
+	margin-left:700px;
+	margin-top:-70px;
+}
+.menu a{
+	
+	margin:10px;
+	font-size:20px;
+	text-decoration:none;
+	color:#037B33;
+}
+.menu a:hover{
+	
+	margin:10px;
+	font-size:20px;
+	text-decoration:underline;
+	color:#91DC5A;
+}
+#icons{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:5px;
+}#icons2{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:22px;
+}#icons3{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:27px;
+}#icons4{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:22px;
+}#icons5{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:45px;
+}
+
+.barra{
+
+	margin-top:50px;
+	width:100;
+	height:100px;
+	background: #fff;
+}
+
+
+.corpo{
+	color:#fff;
+	width:1280px;
+	height:1357px;
+	background:#fff;
+	font-size:17px;
+}
+
+.pord1{
+	width:300px;
+	height:350px;
+	margin-top:50px;
+	border:solid #037B33 1px;
+	color:#000;
+	font-size:15px;
+	text-align:center;
+}
+.pord1 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord1 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord1 p{
+	
+	text-align:center;
+	font-size:25px;
+
+}
+.pord2{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:325px;
+color:#000;
+	border:solid #037B33 1px;
+	text-align:center;
+	
+}
+.pord2 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord2 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord2 p{
+	
+	text-align:center;
+	font-size:25px;
+
+}
+.pord3{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:650px;
+
+	border:solid #037B33 1px;
+		text-align:center;
+	color:#000;
+}
+
+.pord3 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord3 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord3 p{
+	
+	text-align:center;
+	font-size:25px;
+
+}
+.pord4{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:975px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord4 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord4 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord4 p{
+	
+	text-align:center;
+	font-size:25px;
+
+}
+.pord5{
+	width:300px;
+	height:350px;
+	margin-top:50px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord5 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord5 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord5 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+.pord6{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:325px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord6 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord6 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord6 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+
+.pord7{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:650px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord7 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord7 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord7 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+.pord8{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:975px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord8 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord8 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord8 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+.pord9{
+	width:300px;
+	height:350px;
+	margin-top:50px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord9 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord9 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord9 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+.pord10{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:325px;
+	border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord10 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord10 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord10 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+.pord11{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:650px;
+border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord11 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord11 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord11 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+.pord12{
+	width:300px;
+	height:350px;
+	margin-top:-352px;
+	margin-left:975px;
+border:solid #037B33 1px;
+	text-align:center;
+	color:#000;
+	
+}
+.pord12 a{
+	text-decoration:none;
+	color:#037B33;
+}
+.pord12 a:hover{
+	text-decoration:underline;
+	color:#037B33;
+}
+.pord12 p{
+	
+	text-align:center;
+	font-size:25px;
+}
+
+	.barra_texto{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #037B33;
+	margin-top: px;
+	margin-left:px;
+	background:#;
+	color:#037B33;
+	font-size:25px;
+	
+	
+}
+.barra_texto b{
+	
+	margin-top:15px;
+	margin-left:5px;
+	
+	
+}
+	.barra_texto1{
+	width:100%;
+	height:150px;
+	border-top:1px solid #037B33;
+	margin-top:50px;
+	margin-left:px;
+	background:;
+	color:#000;
+	text-align:center;
+		font-size:15px;
+		
+}
+.banner2{
+	width:1280px;
+	height:160px;
+	margin-top:50px;
+	
+}
+
+.rodape{
+	margin-top:50px;
+	color:#fff;
+	width:1280px;
+	height:150px;
+	background:#037B33;
+	font-size:17px;
+	text-align:center;
+	
+}
+.rodape a{
+	
+	
+	color:#fff;
+}
+
+.rodape a:hover{
+	
+	
+		color:#91DC5A;
+}
+
+.rodape_fundo{
+	color:#fff;
+	width:100%;
+	height:150px;
+	background:#037B33;
+	font-size:17px;
+	margin-top:-150px;
+}
+#verde{
+	
+	margin-top:-10px;
+	color:#91DC5A;
+}
+	

@@ -1,0 +1,153 @@
+body{background-color:#fff;
+margin:0 auto;
+font-family:helvetica;
+}
+.linha{
+	width:100%;
+	height:40px;
+
+	background:#037B33;
+}
+.master{
+margin:0 auto;
+width:320px;
+}
+
+.topo{
+	
+	color:#fff;
+	width:320px;
+	height:150px;
+	margin-top:-40px;
+	font-size:17px;
+	
+}
+
+#logo {
+	width:100px;
+	margin-left:90px;
+	text-align:center;
+}
+.menu{
+	display: none;
+}
+.menu a{
+	
+	margin:10px;
+	font-size:20px;
+	text-decoration:none;
+	color:#037B33;
+}
+.menu a:hover{
+	
+	margin:10px;
+	font-size:20px;
+	text-decoration:underline;
+	color:#91DC5A;
+}
+#icons{
+	display:none;
+}#icons2{
+	display:none;
+}#icons3{
+	display:none;
+}#icons4{
+	display:none;
+}#icons5{
+	display:none;
+}
+.slide{display:none;
+}.corpo{
+	display:none;
+}
+.box {display:none;
+}
+.box img{
+	display:none;
+}
+.box1 {
+display:none;
+	
+}
+.box1 img{
+	display:none;
+}
+.box2{
+	display:none;
+}
+.box2 img{
+	
+	display:none;
+}
+.box3{
+	display:none;
+}
+.box3 img{
+	
+	display:none;
+}
+
+.banner{
+	display:none;
+	
+}
+
+.video{display:none;
+}
+.texto{
+	display:none;
+}
+.escrito{
+	display:none;
+}
+
+	.barra_texto{
+	display:none;
+	
+	
+}
+.barra_texto b{
+	
+	display:none;
+	
+	
+}
+	.barra_texto1{
+	display:none;
+		
+}
+.banner2{
+	display:none;
+	
+	
+}
+
+.2banner{
+	display:none;
+	
+}
+.rodape{
+	display:none;
+	
+}
+.rodape a{
+	
+	
+	color:#fff;
+}
+
+.rodape a:hover{
+	
+	
+		color:#91DC5A;
+}
+
+.rodape_fundo{
+	display:none;
+}
+	.ass{
+		display:none;
+	}
+	.construcao{
+		
+	}

@@ -1,0 +1,164 @@
+body{background-color:#fff;
+margin:0 auto;
+font-family:helvetica;
+}
+.linha{
+	width:100%;
+	height:40px;
+
+	background:#037B33;
+}
+.master{
+margin:0 auto;
+width:1280px;
+}
+
+.topo{
+	
+	color:#fff;
+	width:1280px;
+	height:150px;
+	margin-top:-40px;
+	font-size:17px;
+	
+}
+#logo {
+	width:175px;
+	margin-left:100px;
+	
+}
+.menu{
+	color:#fff;
+	width:600px;
+	height:px;
+	background:;
+	font-size:17px;
+	margin-left:700px;
+	margin-top:-70px;
+}
+.menu a{
+	
+	margin:10px;
+	font-size:20px;
+	text-decoration:none;
+	color:#037B33;
+}
+.menu a:hover{
+	
+	margin:10px;
+	font-size:20px;
+	text-decoration:underline;
+	color:#91DC5A;
+}
+#icons{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:5px;
+}#icons2{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:22px;
+}#icons3{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:27px;
+}#icons4{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:22px;
+}#icons5{
+	position:absolute;
+	margin-bottom:20px;
+	margin-top:-30px;
+	margin-left:45px;
+}
+
+.barra{
+
+	margin-top:50px;
+	width:100;
+	height:100px;
+	background: #fff;
+}
+
+
+.corpo{
+	color:#000;
+	width:1280px;
+	height:707px;
+	background:#fff;
+	font-size:17px;
+}
+.fomulario{
+	margin-top:10px;
+	margin-left:580px;
+	width:700px;
+	height:510px;
+	background-color:#fff;
+	font-size:20px;
+	text-align:center;
+	border: 1px solid #037B33;
+}
+#in{
+	margin:5px;
+	width:440px;
+	height:30px;
+	font-size:17px;
+	
+	
+}
+#text{
+	
+	font-size:20px;
+}
+.mapa{
+	margin-top:-509px;
+	margin-left:px;
+}
+.cartao{
+	
+	margin-top:15px;
+	margin-left:px;
+	
+}
+.banner2{
+	width:1280px;
+	height:160px;
+	margin-top:50px;
+	
+}
+.rodape{
+	margin-top:50px;
+	color:#fff;
+	width:1280px;
+	height:150px;
+	background:#037B33;
+	font-size:17px;
+	text-align:center;
+	
+}
+.rodape a{
+	
+	
+	color:#fff;
+}
+
+.rodape a:hover{
+	
+	
+		color:#91DC5A;
+}
+
+.rodape_fundo{
+	color:#fff;
+	width:100%;
+	height:150px;
+	background:#037B33;
+	font-size:17px;
+	margin-top:-150px;
+}
+	
