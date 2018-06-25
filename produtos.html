@@ -1,0 +1,511 @@
+﻿<!-- 
+© Copyright Matra do Brasil. 2016 Todos os direitos reservados.
+Produzido e Revisado por: Daniel Pinhal e Rodrigo R. Fidalgo.
+-->
+<!doctype html>
+<html>
+	<head>
+		<meta name="DESCRIPTION" CONTENT="MATRA DO BRASIL é uma empresa especializada na produção de paletes de madeira, destinados para venda e locação.">
+		<META NAME="KEYWORDS" CONTENT="paletes de madeira, reforma de paletes, locação de paletes, paletes usados, moveis de paletes, mesa de paletes, caixa de madeira, paletes pbr, paletes one-way, palete sustentavel, paletes de exportação" >
+		<META NAME="ROBOT" CONTENT="Index,Follow" >
+		<META NAME="LANGUAGE" CONTENT="PT" >
+		<title>::Matra do Brasil::</title>
+		<link type="text/css" rel="stylesheet" href="css/produtos.css"/>
+		<link rel="shortcut icon" href="imagens/logo.jpg"/>
+		
+		<!--- modal -->
+		
+		
+		
+		<script type="text/javascript" src="js/modal.js"></script> 
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a[rel=modal]").click( function(ev){
+					ev.preventDefault();
+
+					var id = $(this).attr("href");
+
+					var alturaTela = $(document).height();
+					var larguraTela = $(window).width();
+	
+					//colocando o fundo preto
+					$('#mascara').css({'width':larguraTela,'height':alturaTela});
+					$('#mascara').fadeIn(1000);	
+					$('#mascara').fadeTo("slow",0.8);
+
+					var left = ($(window).width() /2) - ( $(id).width() / 2 );
+					var top = ($(window).height() / 2) - ( $(id).height() / 2 );
+					
+					$(id).css({'top':top,'left':left});
+					$(id).show();	
+ 				});
+
+ 				$("#mascara").click( function(){
+ 					$(this).hide();
+ 					$(".window").hide();
+ 				});
+
+ 				$('.fechar').click(function(ev){
+ 					ev.preventDefault();
+ 					$("#mascara").hide();
+ 					$(".window").hide();
+ 				});
+			});
+		</script>
+
+		<style type="text/css">
+
+		.window{
+			display:none;
+			width:800px;
+			height:500px;
+			position:fixed;
+			left:0;
+			top:0;
+			background:#FFFFFF;
+			z-index:9900;
+			padding:10px;
+			border-radius:10px;
+			font-size:17px;
+		}
+
+		#mascara{
+			position:absolute;
+  			left:0;
+  			top:0;
+  			z-index:9000;
+  			background-color:#000;
+  			display:none;
+		}
+
+		.fechar{display:block; text-align:right;}
+		#janela1{color:#000;}
+		#janela2{color:#000;}
+		#janela3{color:#000;}
+		#janela4{color:#000;}
+		#janela5{color:#000;}
+		#janela6{color:#000;}
+		#janela7{color:#000;}
+		#janela8{color:#000;}
+		#janela9{color:#000;}
+		#janela10{color:#000;}
+		#janela11{color:#000;}
+		#janela12{color:#000;}
+		</style>
+		<!--- modal -->
+		
+	</head>
+	<body>
+	<?php include_once("analyticstracking.php") ?>
+	<div class="linha"></div>
+		<div class="master">
+			<div class="topo">
+				<a href="index.html"><img src="imagens/logo.png" id="logo"></a>
+				<div class="menu">
+					<a href="index.html"> <img src="imagens/icones/home.png" id="icons">Inicio</a>
+					<a href="servicos.html"> <img src="imagens/icones/tools.png" id="icons2">Serviços</a>
+					<a href="produtos.html"> <img src="imagens/icones/box.png" id="icons3">Produtos</a>
+					<a href="galeria.html"> <img src="imagens/icones/photo.png" id="icons4">Galeria</a>
+					<a href="fale.php"> <img src="imagens/icones/team.png" id="icons5">Fale conosco</a>
+				</div>
+			</div>
+		
+			<div class="corpo">
+		
+				<div class="barra">
+					<img src="imagens/banner_produtos.jpg">
+				</div>
+				<!---------------------------------------------------------------------------->
+				<div class="pord1"> 
+					<a href="#janela1" rel="modal"><p>Palete PBR</p><img src="imagens/pbr.jpg" width="300"></a>
+					<br><br>A verdadeira finalidade e importancia do palete PBR é a intercambialidade entre empresas, ou seja, é um palete retornável, utilizado em uma rede aberta, <br>onde as empresas mantem relações comerciais entre si.
+					<br><a href="#janela1" rel="modal">Click para ler mais</a></div>
+					<div class="window" id="janela1">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+							<center><h3 id="verde">PBR</h3></center>
+							CARACTERÍSTICAS:<br>
+							A verdadeira finalidade e importancia do palete PBR é a intercambialidade entre empresas, ou seja, é um palete retornável, utilizado em uma rede aberta, onde as empresas mantem relações comerciais entre si, trocam os paletes em suas entregas e recebimento do produto. Após vários anos de estudo, o palete PBR foi lançado oficialmente em 1990, pela ABRAS – Associação Brasileira de Supermercados e atualmente é gerenciado pelo CPP- Comitê Permanente de Paletização, composto por varias entidades de classe, tendo o IPT/SP como órgão de normatização e fiscalização. Para produzir o palete PBR, a empresa necessita do credenciamento e contrato de Permissão de Fabricação e Uso de Marca, emitido pelo CPP/ABRAS/IPT.
+							<br><br>
+							ESPECIFICAÇÕES:<br>
+							Dimensões: 1000x1200\145mm<br>
+							Madeiras: Pinus e Eucalipto<br>
+							Fixação: pregos espirais<br>
+							Identificações: Gravado em fogo: PBR, mês, ano, marca do fabricante credenciado.<br>
+							<br> <center><img src="imagens/banner_pbr.jpg" width="300"></center>
+
+					</div>
+			
+			
+			
+					<!---------------------------------------------------------------------------->
+					<div class="pord2"><a href="#janela2" rel="modal"><p>MP 01</p><img src="imagens/mp01.jpg" width="300"></a>
+						<br><br>Palete duas entradas: uma face simples
+						<br><br><a href="#janela2" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela2">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 01</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Palete duas entradas: uma face simples
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: Conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos.
+						<br>Madeiras: Peroba Rosa, Lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: pregos espirais
+						<br> <center><img src="imagens/banner_mp01.jpg" width="700"></center>
+					</div>
+						
+						
+					<!---------------------------------------------------------------------------->
+					<div class="pord3"><a href="#janela3" rel="modal"><p>MP 02</p><img src="imagens/mp02.jpg" width="300"></a>
+						<br><br>Palete duas entradas: uma face, fundo reforçado
+						<br><br><a href="#janela3" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela3">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 02</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Palete duas entradas: uma face, fundo reforçado.
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br> <center><img src="imagens/banner_mp02.jpg" width="700"></center>
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord4"><a href="#janela4" rel="modal"><p>MP 03</p><img src="imagens/mp03.jpg" width="300"></a>
+						<br><br>Palete duas entradas: dupla face, com vãos entre tábuas.
+						<br><br><a href="#janela4" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela4">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 03</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Palete duas entradas: dupla face, com vãos entre tábuas.
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos, principalmente sacaria e tambores.
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br> <center><img src="imagens/banner_mp03.jpg" width="700"></center>
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord5"><a href="#janela5" rel="modal"><p>MP 04</p><img src="imagens/mp04.jpg" width="300"></a>
+						<br><br><br>Palete duas entradas: uma face fechada, fundo reforçado.
+						<br><br><a href="#janela5" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela5">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 04</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Palete duas entradas: uma face fechada, fundo reforçado.
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos.
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br> <center><img src="imagens/banner_mp04.jpg" width="700"></center>
+
+
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord6"><a href="#janela6" rel="modal"><p>MP 05</p><img src="imagens/mp05.jpg" width="300"></a>
+						<br><br>Palete duas entradas: uma face, fundo reforçado, com área para cabotagem.
+						<br><br><a href="#janela6" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela6">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 05</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Palete duas entradas: uma face, fundo reforçado, com área para cabotagem.
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos.
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br> <center><img src="imagens/banner_mp05.jpg" width="700"></center>
+
+
+
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord7"><a href="#janela7 "rel="modal"><p>MP 06</p><img src="imagens/mp06.jpg" width="300"></a>
+						<br><br>Palete com quatro entradas: uma face, fundo reforçado (assoalho conforme padrão ISO).
+						<br><br><a href="#janela7" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela7">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 06</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Palete com quatro entradas: uma face, fundo reforçado (assoalho conforme padrão ISO). Opção com assoalho fechado (sem vão entre as tabuas) .
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos.
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br>Opcional: Reforço com 05 parafusos tipo francês.
+						<br> <center><img src="imagens/banner_mp06.jpg" width="700"></center>
+
+
+
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord8"><a href="#janela8" rel="modal"><p>MP 07</p><img src="imagens/mp07.jpg" width="300"></a>
+						<br><br>Palete com quatro entradas: dupla face, assoalho conforme padrão ISO. Opção com assoalho fechado 
+						<br><br><a href="#janela8" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela8">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 07</h3></center>
+						<br><br>CARACTERISTICAS<br>
+						Palete com quatro entradas: dupla face, assoalho conforme padrão ISO. Opção com assoalho fechado (sem vão entre as tabuas) .
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos. Principalmente sacarias.
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br>Opcional: Reforço com 05 parafusos tipo francês.
+						<br> <center><img src="imagens/banner_mp07.jpg" width="700"></center>
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord9"><a href="#janela9" rel="modal"><p>MP 08</p><img src="imagens/mp08.jpg" width="300"></a>
+						<br><br>Palete com quatro entradas: uma  face, fundo nivelado, assoalho conforme padrão ISO. 
+						<br><br><a href="#janela9" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela9">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 08</h3></center>
+						<br><br>CARACTERISTICAS<br>
+						Palete com quatro entradas: uma  face, fundo nivelado, assoalho conforme padrão ISO. Opção com assoalho fechado (sem vão entre as tabuas) .
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: conforme especificações do cliente.
+						<br>Aplicação: usos múltiplos. 
+						<br>Madeiras: Peroba Rosa, lei Duras, Eucalipto e/ou Pinus.
+						<br>Fixação: Pregos espirais
+						<br>Opcional: Reforço com 05 parafusos tipo francês.
+						<br> <center><img src="imagens/banner_mp08.jpg" width="700"></center>
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord10"><a href="#janela10" rel="modal"><p>MP 19</p><img src="imagens/mp19.jpg" width="300"></a>
+						<br><br>Extensor misto para paletes (lateral Dobrável) . 
+						<br><br><a href="#janela10" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela10">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 19</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Extensor misto para paletes (lateral Dobrável) .
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: altura padrão 195 mm, largura e comprimento: conforme especificações do cliente.
+						<br>Aplicação: embalagem retornável de vida útil longa (até 08 anos). 
+						<br>Madeiras:  Pinus, cedrinho e Pinho Araucária.
+						<br>Fixação: cantoneiras articuláveis, parafusos, porcas e arruelas zincadas.
+						<br>Acessórios: colméias, separadores de tampo.
+						<br> <center><img src="imagens/banner_mp19.jpg"></center>
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord11"><a href="#janela11" rel="modal"><p>MP 20</p><img src="imagens/mp20.jpg" width="300"></a>
+						<br><br>Extensor misto para paletes (lateral Dobrável) . 
+						<br><br><a href="#janela11" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela11">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 20</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Extensor misto para paletes (lateral Dobrável) .
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: altura padrão 195 mm, largura e comprimento: conforme especificações do cliente.
+						<br>Aplicação: embalagem retornável de vida útil longa (até 08 anos).  Para colheita de frutas, verduras e legumes.
+						<br>Madeiras:  cedrinho, peroba rosa, Lei Duras.
+						<br>Fixação: cantoneiras articuláveis, parafusos, porcas e arruelas zincadas.
+
+						<br> <center><img src="imagens/banner_mp20.jpg"></center>
+
+					</div>
+					<!---------------------------------------------------------------------------->
+					<div class="pord12"><a href="#janela12" rel="modal"><p>MP 23</p><img src="imagens/mp23.jpg" width="300"></a>
+						<br>Bin para colheita . 
+						<br><a href="#janela12" rel="modal">Click para ler mais</a>
+					</div>
+					<div class="window" id="janela12">
+						<a href="#" class="fechar"><img src="imagens/x.jpg"></a>
+						<center><h3 id="verde">MP 23</h3></center>
+						<br>CARACTERISTICAS<br><br>
+						Extensor misto para paletes (lateral Dobrável) .
+						<br>(caixas de madeira paletizadas) para a colheita, transporte e acondicionamento de frutas e tubérculos. Os bins são produzidos em madeira legalizada com alto grau de durabilidade e resistência à intempérie.
+
+						<br><br>ESPECIFICAÇÕES<br>
+						<br>Dimensões: 1000 X 1200 X 1000 mm.
+						<br>Aplicação: Para colheita de frutas, verduras e legumes.
+						<br>Madeiras: Peroba rosa, Lei Duras.
+						<br>Fixação: Pregos espirais.
+
+
+					</div>
+					<div id="mascara"></div>
+				</div>
+			<div class="2banner">
+				<img src="imagens/rodape.jpg">
+			</div>
+				<div class="rodape">
+				<br>© Copyright Matra do Brasil. 2016 Todos os direitos reservados.<br><br>
+				Tel: 11 4646 - 1120
+				 / 11 4648 - 6120
+				 / 11 4648 - 6654
+				<h6>Icon made by <a href="http://www.freepik.com/">Freepik in interface.</a>
+				<br>Pack: Interface and web from www.flaticon.com 
+				<br>E.g.: Icon made by Freepik from www.flaticon.com </h6>
+			</div>
+		</div>
+		<div class="rodape_fundo"></div>
+	</body>
+</html>
+<!--
+
+     \;,._                           _,,-
+     \`;, `-._ _..--'''```--.._ __.-',;(
+      \ `;,  `:.  ,   ;.   .   :'  .;` /
+       ; `;;,      .:    :.      ,;;` /
+        \ ';/    \:: :  . ::/    \;` ;
+         ).' __.._`        '_..__ `./
+         /<  \\ /I`,      ,'I\ //   >
+         /\   `;-7/_\ -- /_\7-;'   /\
+         //.    `"':" ;; ":`"'     /\
+          |/ .  .:' __..__ `.     \|
+          /\|: ./. `=_  _=' .\   |/\
+             /:(/::.  \/  .::\) /
+              ////=-v-'`-v-=\\\\  
+              ///`Nx_\;;/_xN'\\\
+             / /   `"w==w"'   \ \
+              /                \
+
+
+                                                _
+                   |\___/|                      \\
+                   )     (    |\_/|              ||
+                  =\     /=   )a a `,_.-""""-.  //
+                    )===(    =\Y_= /          \//
+                   /     \     `"`\       /    /
+                   |     |         |    \ |   /
+                  /       \         \   /- \  \
+                  \       /         || |  // /`
+           _/\_/\_/\_   _/_/\_/\_/\_((_|\((_//\_/\_/\_/\_
+           
+
+      \    /\
+       )  ( ')
+      (  /  )
+       \(__)|
+       
+
+
+           M.                                         .:M
+           MMMM.                                   .:MMMM
+           MMMMMMMM                             .:MMMMMMM
+           :MMHHHMMMMHMM.  .:MMMMMMMMM:.      .:MMHHMHMM:
+            :MMHHIIIHMMMM.:MMHHHHIIIHHMMMM. .:MMHIHIIHHM:
+             MMMHIIIIHHMMMIIHHMHHIIIIIHHMMMMMMHHHIIIIHHM:
+             :MMHIIIIIHMMMMMMMHHIIIIIIHHHMMMMMHHII:::IHM.
+              MH:I:::IHHMMMMMHHII:::IIHHMMMHHHMMM:I:IHMM
+              :MHI:HHIHMMHHIIHII::.::IIHMMHHIHHMMM::HMM:
+               MI::HHMMIIM:IIHII::..::HM:MHHII:::IHHMM:
+               MMMHII::..:::IHMMHHHMHHMMI:::...::IHM:
+               :MHHI::....::::HMMMMMMHHI::.. ..:::HM:
+                :MI:.:MH:.....:HMMMMHHMIHMMHHI:HH.:M
+                M:.I..MHHHHHMMMIHMMMMHMMHHHHHMMH:.:M.
+                M:.H..H  I:HM:MHMHI:IM:I:MM::  MMM:M:
+                :M:HM:.M I:MHMIIMMIIHM I:MM::.:MMI:M.
+                'M::MM:IMH:MMII MMHIMHI :M::IIHMM:MM
+                 MH:HMMHIHMMMMMMHMMIMHIIHHHHIMMHHMM
+                  MI:MMMMHI:::::IMM:MHI:::IMMMMHIM
+                   :IMHIHMMMMMM:MMMMMHHHHMMMHI:M
+                    HI:IMIHMMMM:MMMMMMHHHMI:.:M      .....
+        ............M::..:HMMMMIMHIIHMMMMHII:M:::''''
+            ....:::MHI:.:HMMMMMMMMHHHMHHI::M:::::::''''''
+           ''   ...:MHI:.::MMHHHMHMIHMMMMHH.MI..........
+              ''  ...MHI::.::MHHHHIHHMM:::IHM           '''
+                 '  IMH.::..::HMMHMMMH::..:HM:
+                   :M:.H.IHMIIII::IIMHMMM:H.MH
+                    IMMMH:HI:MMIMI:IHI:HIMIHM:
+                  .MMI:.HIHMIMI:IHIHMMHIHI:MIM.
+                 .MHI:::HHIIIIIHHI:IIII::::M:IM.
+                .MMHII:::IHIII::::::IIIIIIHMHIIM
+                MHHHI::.:IHHII:::.:::IIIIHMHIIHM:
+               MHHHII::..::MII::.. ..:IIIHHHII:IM.
+              .MHHII::....:MHII::.  .:IHHHI::IIHMM.
+              MMHHII::.....:IHMI:. ..:IHII::..:HHMM
+              MHHII:::......:IIHI...:IHI::.....::HM:
+             :MMH:::........ ...::..::....  ...:IHMM
+             IMHIII:::..........     .........::IHMM.
+             :MHIII::::......          .......::IHMM:
+              MHHIII::::...             ......::IHMM:
+              IMHHIII:::...             .....::IIHMM,
+              :MHHIII:::I:::...     ....:::I:::IIHMM
+               MMHHIII::IHI:::...........:::IIH:IHMM
+               :MMHHII:IIHHI::::::.....:::::IH:IHMIM
+                MMMHHII:IIHHI:::::::::::::IHI:IIHM:M.
+                MMMHHIII::IHHII:::::::::IHI:IIIHMM:M:
+                :MMHHHIII::IIIHHII::::IHI..IIIHHM:MHM
+                :MMMHHII:..:::IHHMMHHHHI:IIIIHHMM:MIM
+                .MMMMHHII::.:IHHMM:::IIIIIIHHHMM:MI.M
+              .MMMMHHII::.:IHHMM:::IIIIIIHHHMM:MI.M
+            .MMMMHHMHHII:::IHHMM:::IIIIIHHHHMM:MI.IM.
+           .MMHMMMHHHII::::IHHMM::I&&&IHHHHMM:MMH::IM.
+          .MMHHMHMHHII:::.::IHMM::IIIIHHHMMMM:MMH::IHM
+          :MHIIIHMMHHHII:::IIHMM::IIIHHMMMMM::MMMMHHHMM.
+          MMHI:IIHMMHHHI::::IHMM:IIIIHHHMMMM:MMMHI::IHMM.
+          MMH:::IHMMHHHHI:::IHMM:IIIHHHHMMMM:MMHI:.:IHHMM.
+          :MHI:::IHMHMHHII::IHMM:IIIHHHMMMMM:MHH::.::IHHM:
+          'MHHI::IHMMHMHHII:IHMM:IIHHHHMMMM:MMHI:...:IHHMM.
+           :MHII:IIHMHIHHIIIIHMM:IIHHHHMMMM:MHHI:...:IIHMM:
+           'MHIII:IHHMIHHHIIHHHMM:IHHHMMMMM:MHHI:..::IIHHM:
+            :MHHIIIHHMIIHHHIHHHMM:HHHHMMMMM:MHII::::IIIHHMM
+             MHHIIIIHMMIHHHIIHHMM:HHHHMMMM:MMHHIIHIIIIIHHMM.
+             'MHHIIIHHMIIHHIIIHMM:HHHMMMMH:MHHMHII:IIIHHHMM:
+              'MHHIIIHMMIHHHIHHMM:HHHMMMHH:MMIMMMHHHIIIHHMM:
+               'MHHIIHHMIHHHHHMMM:HHHMMMH:MIMMMMMMMMMMHIHHM:
+                'MHIIIHMMIHHHHHMM:HHHMMMH:IMMMMMHHIHHHMMHHM'
+                 :MHHIIHMIHHHHHMM:HHHMMMM:MMHMMHIHMHI:IHHHM
+                  MHHIIHM:HHHHHMM:HHHMMMM:MMMHIHHIHMM:HHIHM
+                   MHHIHM:IHHHHMM:HHHHMM:MMHMIIHMIMMMHMHIM:
+                   :MHIHMH:HHHHMM:HHHHMM:MMHIIHMIIHHMMHIHM:
+                    MMHHMH:HHHHMM:HHHHMM:MHHIHMMIIIMMMIIHM'
+                    'MMMMH:HHHHMM:HHHMM:MHHHIMMHIIII::IHM:
+                     :MMHM:HHHHMM:HHHMM:MHIHIMMHHIIIIIHM:
+                      MMMM:HHHHMM:HHHHM:MHHMIMMMHHHIHHM:MMMM.
+                      :MMM:IHHHMM:HHHMM:MHHMIIMMMHHMM:MMMMMMM:
+                      :MMM:IHHHM:HHHHMM:MMHHHIHHMMM:MMMMMMMMMM
+                       MHM:IHHHM:HHHMMM:MMHHHHIIIMMIIMMMMMMMMM
+                       MHM:HHHHM:HHHMMM:HMMHHHHHHHHHMMMMMMMMM:
+                    .MI:MM:MHHMM:MHMMHMHHMMMMHHHHHHHMMMMMMMMM'
+                   :IM:MMIM:M:MM:MH:MM:MH:MMMMMHHHHHMMMMMMMM'
+                   :IM:M:IM:M:HM:IMIHM:IMI:MMMMMHHHMMMMMM:'
+                    'M:MHM:HM:MN:HMIHM::M'   '::MMMMMMM:'
+                       'M'HMM'M''M''HM'I'
+                       
+                                                       /\-/\
+  _                                                   /  o o\
+ ( \_________________________________________,-~~~~~~-\=  Y /=
+  \__________________________________________          '--^'
+                                             \           /
+                                             /  /'---|  ||
+                                             |__))   |__)_)
+
+
+		-->
